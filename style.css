@@ -1,0 +1,456 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+
+.fixes_a {
+    padding: 20px;
+}
+
+.fixes {
+    background-image: url("./hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.finex_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    color: white;
+}
+
+.fixes_a_menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.fixes_a_menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fixes_a_menu img {
+    width: 25px;
+}
+
+.home a {
+    color: #00bbf0;
+}
+
+.fixes_a_menu a:hover {
+    color: #00bbf0;
+    transition: 0.1s all;
+}
+
+/* header */
+
+/* main */
+
+
+
+.fixes_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+/* main-parametr */
+.fixes_parametr {
+    width: 33%;
+    color: white;
+
+}
+
+.fixes_parametr h1 span {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 15px;
+
+}
+
+.fixes_parametr h1 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.fixes_parametr p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+
+}
+
+.fixes_parametr button {
+    margin-top: 25px;
+    padding: 12px 40px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+}
+
+.fixes_parametr button:hover {
+    background-color: #00bcf0db;
+    transition: 0.1s all;
+}
+
+/* main-parametr */
+
+/* main-img */
+
+.fixes_img img {
+    width: 100%;
+}
+
+
+
+
+.img2 {
+    display: flex;
+    align-items: center;
+}
+
+.fixes_img {
+    width: 30%;
+    gap: 15px;
+    animation: tepa 5s ease-in-out infinite;
+}
+
+@keyframes tepa {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+
+}
+
+/* main-img */
+
+
+/* main */
+
+.fixes_service {
+    background-color: white;
+
+}
+
+.fixes_service_h1 p {
+    padding-bottom: 45px;
+}
+
+
+.fixes_service_h1 {
+    text-align: center;
+}
+
+.fixes_service_h1 span {
+    color: #00bbf0;
+}
+
+.fixes_service_h1 h1 {
+    padding-bottom: 15px;
+}
+
+
+
+.fixes_service_box img {
+    width: 80px;
+
+}
+
+.fixes_service_box h2 {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+
+
+}
+
+.fixes_service_box h2:hover {
+    color: #00bbf0;
+}
+
+.fixes_service_box p {
+    width: 50%;
+    text-align: center;
+}
+
+.fixes_service_h1 h1 {
+    padding-top: 50px;
+}
+
+.fixes_service_box_child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fixes_service_aftaritet {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 12px 50px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+    margin-top: 55px;
+    margin-bottom: 85px;
+}
+
+.btn:hover {
+    background-color: #00bcf0a4;
+    transition: 0.1s all;
+}
+
+/* main */
+
+/* <!-- about  --> */
+.about {
+    background-image: url("./hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+}
+
+.about_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about_title span {
+    color: #00bcf0a4;
+}
+
+.about_title {
+    color: white;
+}
+
+.about_title p {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about_img img {
+    width: 550px;
+}
+
+.about_img {
+    padding-left: 100px;
+}
+
+.about_lorem h1 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+
+
+.about_lorem {
+    color: white;
+    width: 45%;
+}
+
+
+
+.about_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.btn2 {
+
+
+    padding: 12px 50px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+    margin-top: 25px;
+
+
+}
+
+.btn2:hover {
+    background-color: #00bcf0a4;
+    transition: 0.1s all;
+}
+
+hr {
+    width: 95%;
+    margin: 10px 0;
+
+}
+
+/* <!-- about  --> */
+
+/* choose */
+
+.choose {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 15px;
+
+}
+
+.choose h1{
+    padding-bottom: 10px;
+}
+
+.choose span {
+    color: #00bbf0;
+}
+
+
+.choose img {
+    width: 150px;
+    border: 5px solid ;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.choose p {
+    text-align: center;
+    width: 85%;
+}
+
+#btn{
+    margin-bottom: 55px;
+}
+/* cho[o]se */
+
+/* user */
+
+.users{
+    background-image: url("./hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    padding-bottom: 65px;
+    
+    
+}
+
+
+
+
+.users h1{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    margin-bottom:25px;
+}
+
+.users h1 span{
+  color: #00bbf0;
+  padding-left:10px;
+}
+
+.user_cards img{
+    width: 130px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.user_cards h2 span{
+    color: #00bbf0;
+}
+
+.user_cards h2 {
+    color: white;
+}
+
+.user_cards{
+    background-color: #00bcf076;
+    width: 300px;
+   border: 2px solid white;
+   border-radius: 15px;
+   padding: 35px;
+   text-align: center;
+
+}
+
+.usder_programs i{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.usder_programs{  
+          
+padding-top: 25px;
+text-align: center;
+
+}
+
+.users h2{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.users h2 span{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* user */
+
+.center_user_cards{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+}
